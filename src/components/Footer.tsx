@@ -70,18 +70,17 @@ const Footer = () => {
       <div className="w-full px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 pb-10 border-b border-gray-700">
           <div className="lg:col-span-2">
-            <img 
-              src="/lovable-uploads/7d120ee6-3614-4b75-9c35-716d54490d67.png" 
-              alt="WRLDS Technologies Logo" 
-              className="h-10 w-auto mb-6 invert" // Added invert to make logo white
-            />
+            <span className={cn("text-xl font-bold", isScrolled ? "text-gray-900" : "text-white")}>
+              NexFrame
+            </span>
             <p className="text-gray-300 mb-6">
-              WRLDS Technologies provides an end-to-end platform for the creation and deployment of AI-powered smart sensor devices, giving customers 100% ownership while handling the complete technological development.
+              NexFrame Software Solutions: Building innovative ERP systems, mobile & web applications, and digital transformation solutions for businesses that think different.
             </p>
-            <p className="text-gray-300 mb-6">
-              Hornsgatan 110<br />
-              117 26, Stockholm Sweden
-            </p>
+            <div className="space-y-2 text-gray-300 mb-6">
+              <p className="font-medium">Contact Information:</p>
+              <p>Email: contact@nexframe.in</p>
+              <p>Phone: +91 72596 94757</p>
+            </div>
             <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/company/wrldstechnologies/" 
