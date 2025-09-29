@@ -84,24 +84,27 @@ const Navbar = () => {
                 
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className={cn(isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
-                    Learn More
+                    Solutions
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid gap-3 p-4 w-[400px]">
                       <li>
-                        <Link to="/tech-details" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Technology Details</div>
-                          <p className="text-sm text-gray-500">How our smart textile platform works</p>
+                        <Link to="/services" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">ERP Systems</div>
+                          <p className="text-sm text-gray-500">Comprehensive enterprise resource planning solutions</p>
                         </Link>
                       </li>
                       <li>
-                        <Link to="/development-process" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
-                          <div className="font-medium">Development Process</div>
-                          <p className="text-sm text-gray-500">Our approach to creating custom solutions</p>
+                        <Link to="/services" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Mobile & Web Apps</div>
+                          <p className="text-sm text-gray-500">Custom applications for your business needs</p>
                         </Link>
                       </li>
                       <li>
-                        
+                        <Link to="/services" className="block p-3 space-y-1 rounded-md hover:bg-gray-100">
+                          <div className="font-medium">Digital Transformation</div>
+                          <p className="text-sm text-gray-500">End-to-end modernization services</p>
+                        </Link>
                       </li>
                     </ul>
                   </NavigationMenuContent>
@@ -158,20 +161,19 @@ const Navbar = () => {
             About Us
           </Link>
           
-          {/* Simplified Customer Cases - no dropdown */}
-          <Link to="/projects/firecat" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+          <Link to="/services" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
-            Customer Cases
+            Services
           </Link>
           
-          {/* Simplified Learn More - no dropdown */}
-          <Link to="/tech-details" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
+          {/* Simplified Solutions */}
+          <Link to="/services" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
-            Learn More
+            Solutions
           </Link>
           
           <Link to="/blog" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {

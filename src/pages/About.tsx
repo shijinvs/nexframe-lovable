@@ -29,7 +29,7 @@ const About = () => {
               transition={{ duration: 0.5 }} 
               className="text-4xl font-bold mb-6"
             >
-              About WRLDS Technologies
+              About NexFrame Software Solutions
             </motion.h1>
             
             <div className="prose prose-lg max-w-none">
@@ -39,7 +39,7 @@ const About = () => {
                 transition={{ duration: 0.5, delay: 0.2 }} 
                 className="text-xl text-gray-600 mb-12"
               >
-                We're a team of innovators dedicated to revolutionizing smart textile technology for industries worldwide.
+                We're a team of innovators dedicated to building cutting-edge ERP systems, mobile & web applications, and digital transformation solutions for businesses that think different.
               </motion.p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16">
@@ -51,12 +51,12 @@ const About = () => {
                 >
                   <h2 className="text-3xl font-bold">Our Mission</h2>
                   <p className="text-gray-600">
-                    At WRLDS Technologies, we're on a mission to transform ordinary textiles into intelligent, 
-                    data-driven solutions that improve safety, performance, and quality of life across industries.
+                    At NexFrame Software Solutions, we're on a mission to transform how businesses operate through 
+                    innovative ERP systems, cutting-edge mobile and web applications, and comprehensive digital transformation solutions.
                   </p>
                   <p className="text-gray-600">
-                    We believe that by embedding intelligence into everyday fabrics, we can create a more 
-                    connected, responsive, and safer world.
+                    We believe that by building powerful, scalable software solutions, we can help businesses 
+                    streamline their operations, improve efficiency, and achieve sustainable growth.
                   </p>
                 </motion.div>
                 
@@ -70,19 +70,19 @@ const About = () => {
                   <ul className="space-y-3">
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Innovation:</strong> We push boundaries to create solutions that weren't possible before.</span>
+                      <span><strong>Innovation:</strong> We leverage cutting-edge technologies to create software solutions that drive business growth.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Quality:</strong> We're committed to excellence in every sensor, algorithm, and solution we deliver.</span>
+                      <span><strong>Quality:</strong> We're committed to excellence in every line of code, feature, and solution we deliver.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Collaboration:</strong> We work closely with our clients to ensure their unique needs are met.</span>
+                      <span><strong>Collaboration:</strong> We work closely with our clients to understand their business needs and deliver tailored solutions.</span>
                     </li>
                     <li className="flex items-start">
                       <CheckCircle className="h-5 w-5 text-gray-700 mt-1 mr-3 flex-shrink-0" />
-                      <span><strong>Impact:</strong> We measure success by the tangible differences our technology makes in the real world.</span>
+                      <span><strong>Impact:</strong> We measure success by the business growth and efficiency gains our solutions provide.</span>
                     </li>
                   </ul>
                 </motion.div>
@@ -97,19 +97,19 @@ const About = () => {
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <div className="bg-white rounded-xl border border-gray-200 p-8 shadow-sm">
                   <p className="text-gray-600 mb-4">
-                    We started with the ambition to make an inherently scattered and complex development area modular, 
-                    smart and available to analog brands. After successfully raising millions of dollars for development, 
-                    we spent the first two years in full code mode.
+                    NexFrame Software Solutions was founded with the vision to bridge the gap between complex business requirements 
+                    and elegant software solutions. We started by recognizing that many businesses struggle with fragmented systems 
+                    and inefficient processes that hinder their growth potential.
                   </p>
                   <p className="text-gray-600 mb-4">
-                    The goal was to turn all the scattered hardware and building blocks into simple modules to be 
-                    assembled like Lego. During this time we took in a range of customers for whom we built prototypes - 
-                    a way for us to make sure what we built had bearing in real world use cases.
+                    Our approach has always been to build modular, scalable solutions that can adapt to each client's unique needs. 
+                    We've worked with businesses across various industries, from startups to established enterprises, helping them 
+                    modernize their operations and achieve digital transformation.
                   </p>
                   <p className="text-gray-600">
-                    In 2023 we felt we had reached a technology level allowing us to start working on enterprise level. 
-                    Since then, we have focused on textile integrations because of the enormous potential smart textiles 
-                    have across multiple industries from healthcare to public safety.
+                    Today, we specialize in comprehensive ERP systems, innovative mobile and web applications, and end-to-end 
+                    digital transformation services. Our solutions empower businesses to streamline operations, improve efficiency, 
+                    and focus on what they do best - growing their business.
                   </p>
                 </div>
               </motion.div>
@@ -122,34 +122,34 @@ const About = () => {
               >
                 <h2 className="text-3xl font-bold mb-6">Our Team</h2>
                 <p className="text-gray-600 mb-8">
-                  Our diverse team combines expertise in textile engineering, electronics, software development, 
-                  artificial intelligence, and industry-specific knowledge to deliver holistic solutions.
+                  Our diverse team combines expertise in software architecture, full-stack development, cloud technologies, 
+                  artificial intelligence, and business process optimization to deliver comprehensive solutions.
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                   {[
                     {
-                      name: "Felix von Heland",
+                      name: "Rajesh Sharma",
                       role: "CEO and Founder",
-                      bio: "Leading WRLDS Technologies with a vision to transform the future of smart textiles.",
+                      bio: "Leading NexFrame with a vision to transform businesses through innovative software solutions.",
                       image: "/lovable-uploads/aa5291bd-2417-4c1e-9a02-0bcc71a92507.png"
                     },
                     {
-                      name: "Niek Bijman",
-                      role: "Software Lead",
-                      bio: "Specializing in cloud infrastructure and APIs for seamless data integration.",
+                      name: "Priya Patel",
+                      role: "CTO",
+                      bio: "Architect of our technology stack, specializing in scalable ERP systems and cloud solutions.",
                       image: "/lovable-uploads/e502f601-c519-43a8-86f5-5fa89ae50d2f.png"
                     },
                     {
-                      name: "Chengjie Li",
-                      role: "Hardware Lead",
-                      bio: "Expert in embedded systems engineering, leading our hardware development efforts.",
+                      name: "Arjun Kumar",
+                      role: "Lead Developer",
+                      bio: "Full-stack development expert leading our mobile and web application development teams.",
                       image: "/lovable-uploads/3de85ddd-15e1-4216-9697-f91abb9a47ce.png"
                     },
                     {
-                      name: "Love",
-                      role: "COO",
-                      bio: "Overseeing daily operations and ensuring business objectives are met effectively.",
+                      name: "Kavya Singh",
+                      role: "Head of Operations",
+                      bio: "Ensuring smooth project delivery and maintaining our high standards of client satisfaction.",
                       image: "/lovable-uploads/a9bb9110-964a-43b0-a5ab-7162140cd133.png"
                     }
                   ].map((member, i) => (
