@@ -3,7 +3,6 @@ import { ArrowRight, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
-import { cn } from "@/lib/utils";
 import emailjs from 'emailjs-com';
 
 const Footer = () => {
