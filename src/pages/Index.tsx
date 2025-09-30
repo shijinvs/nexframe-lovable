@@ -3,7 +3,6 @@ import PageLayout from '@/components/PageLayout';
 import Hero from '@/components/Hero';
 import NexFrameServices from '@/components/NexFrameServices';
 import WhyNexFrame from '@/components/WhyNexFrame';
-import BlogPreview from '@/components/BlogPreview';
 import SEO from '@/components/SEO';
 import { useEffect } from 'react';
 
@@ -27,7 +26,6 @@ const Index = () => {
       <Hero />
       <NexFrameServices />
       <WhyNexFrame />
-      <BlogPreview />
     </PageLayout>
   );
 };
