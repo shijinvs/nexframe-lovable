@@ -114,6 +114,7 @@ const About = () => {
                 </div>
               </motion.div>
               
+              {/* Our Team Section - Temporarily Commented Out
               <motion.div 
                 initial={{ opacity: 0, y: 20 }} 
                 animate={{ opacity: 1, y: 0 }} 
@@ -172,6 +173,7 @@ const About = () => {
                   ))}
                 </div>
               </motion.div>
+              */}
             </div>
             
             <div className="mt-16 pt-8 border-t border-gray-200">
