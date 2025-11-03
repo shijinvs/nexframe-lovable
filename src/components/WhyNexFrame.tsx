@@ -120,9 +120,6 @@ const WhyNexFrame = () => {
             <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center mx-auto mb-4">
               <BarChart className="w-8 h-8 text-gray-700" />
             </div>
-            <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={85} suffix="%" />
-            </h3>
             <p className="text-gray-700">Faster development with our proven frameworks and established processes</p>
           </motion.div>
           
@@ -130,9 +127,6 @@ const WhyNexFrame = () => {
             <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center mx-auto mb-4">
               <Users className="w-8 h-8 text-gray-700" />
             </div>
-            <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={50} suffix="+" />
-            </h3>
             <p className="text-gray-700">Successful projects delivered across various industries and business sizes</p>
           </motion.div>
           
@@ -140,9 +134,6 @@ const WhyNexFrame = () => {
             <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center mx-auto mb-4">
               <Clock4 className="w-8 h-8 text-gray-700" />
             </div>
-            <h3 className="text-gray-900 text-2xl lg:text-3xl font-bold mb-3">
-              <AnimatedCounter end={24} suffix="/7" />
-            </h3>
             <p className="text-gray-700">Support and maintenance to keep your systems running smoothly</p>
           </motion.div>
         </motion.div>
