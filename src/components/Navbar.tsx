@@ -82,6 +82,7 @@ const Navbar = () => {
                   </Link>
                 </NavigationMenuItem>
                 
+                {/* Solutions Dropdown - Temporarily Commented Out
                 <NavigationMenuItem>
                   <NavigationMenuTrigger className={cn(isScrolled ? "text-gray-700 hover:text-gray-900" : "text-gray-100 hover:text-white bg-transparent hover:bg-gray-800")}>
                     Solutions
@@ -109,6 +110,7 @@ const Navbar = () => {
                     </ul>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
+                */}
                 
                 <NavigationMenuItem>
                   <Link to="/blog">
@@ -168,13 +170,14 @@ const Navbar = () => {
             Services
           </Link>
           
-          {/* Simplified Solutions */}
+          {/* Simplified Solutions - Temporarily Commented Out
           <Link to="/services" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
             setIsMenuOpen(false);
             window.scrollTo(0, 0);
           }}>
             Solutions
           </Link>
+          */}
           
           <Link to="/blog" className={cn("block px-3 py-1.5 rounded-md text-sm", isScrolled ? "text-gray-700 hover:bg-gray-50" : "text-gray-200 hover:bg-gray-900")} onClick={() => {
             setIsMenuOpen(false);
